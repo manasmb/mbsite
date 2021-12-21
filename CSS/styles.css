@@ -4,6 +4,12 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
+hr{
+  color: #DFD3C3;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid none none;
+}
 h1{
   margin:0;
   margin-top: 150px
@@ -16,7 +22,7 @@ h1{
 }
 .name{
   font-family: 'Sacramento', cursive;
-  font-size: 72px;
+  font-size: 5.625rem;
 }
 
 .cloudtop{
@@ -25,6 +31,37 @@ h1{
   right: 450px;
   top: 50px;
 }
+
+.dp{
+  margin-top: 48px;
+}
+
+.work-row{
+  width: 50%;
+  text-align: left;
+  margin: 16px auto 16px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 16px auto 16px auto;
+}
+.workimg{
+  width: 5.625rem;
+  float: left;
+
+}
+.worktitle{
+  margin-left: 7.925rem;
+  color: #000000;
+}
+.skilltitle{
+  color: #000000;
+}
+.workdesc{
+  margin-left: 7.925rem;
+  line-height: 2;
+}
+
 .cloudmid{
 
   position: absolute;
@@ -39,16 +76,13 @@ h1{
 
 }
 .skillimg{
-  width: 250px;
-  height: 250px;
+  width: 5.625rem;
+  height: 5.625rem;
 }
 .pro{
   text-decoration: underline;
 }
-p{
-  margin-left: 96px;
-  margin-right: 96px;
-}
+
 .redline{
   color: #E27D60;
   width: 10%;
@@ -56,5 +90,10 @@ p{
   margin: 32px auto 32px auto;
   border-style: dotted none none;
 }
-.mount{
+.redlinestr{
+  color: #E27D60;
+  width: 10%;
+  border-width: 5px;
+  margin: 32px auto 32px auto;
+  border-style:solid none none;
 }

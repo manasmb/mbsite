@@ -20,6 +20,12 @@ h1{
   position: relative;
 
 }
+.footer{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  color: #EAF6F6;
+  padding-bottom: 1.25rem;
+}
 .name{
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
